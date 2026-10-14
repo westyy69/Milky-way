@@ -1,4 +1,3 @@
-// Vercel Serverless Function: хранит открытки в Vercel Blob и отдаёт по короткому id
 const crypto = require('crypto');
 
 module.exports = async (req, res) => {
